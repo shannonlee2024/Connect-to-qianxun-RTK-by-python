@@ -14,3 +14,13 @@ rostopic hz /ublox_gps/rtcm
 
 average rate: 0.995
 	min: 0.781s max: 1.181s std dev: 0.10448s window: 37
+
+
+
+ALL in one：
+
+first install https://github.com/JIAHAO-FUHUA/gnss_driver#  Thanks jiahao
+
+run ：
+roscore
+python3 RTK_bridge_MAVROS_TCP_ROSTOPIC.py 
