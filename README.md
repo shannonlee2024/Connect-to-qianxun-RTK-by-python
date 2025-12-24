@@ -2,6 +2,8 @@
 Connect to qianxun RTK-by python
 
 RUN :
+roslaunch ublox_driver.launch 
+and then
 python3 RTK_qianxun.py 
 
 if succeed：
